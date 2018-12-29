@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fb.demo.mapper.UserInfoMapper">
+    <sql id="table_name">user_info</sql>
+
+    <!--<insert id="insertSelective" parameterType="com.fb.demo.bean.po.UserInfo">-->
+        <!--INSERT INTO <include refid="table_name"/> (-->
+        <!--user_name,password,create_time-->
+        <!--)VALUES (-->
+        <!--#{userName},#{password},#{createTime}-->
+        <!--)-->
+    <!--</insert>-->
+</mapper>
