@@ -37,6 +37,7 @@ public class UserInfoController {
      */
     @RequestMapping(value = "/add" ,produces="application/json;charset=UTF-8",method = RequestMethod.GET)
     public String insertByUserInfoGet(UserInfoVo userInfoVo){
+        int i = 1/0;
         int result =  userInfoService.insertByUserInfo();
         return "help";
     }
